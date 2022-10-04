@@ -1,0 +1,37 @@
+.attributes{
+	background-image: url('../../../../../images/smallFrame.png');
+	height: 148px;
+	width: 120px;
+	min-width: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	display: flex;
+	padding-top: 20px;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 20px;
+}
+.attributeLabel{
+	color: var(--text-label-dark);
+	font-weight: 900;
+	font-size: 13pt;
+}
+.attributeModifier{
+	margin-top: 11px;
+	display: flex;
+	font-weight: 700;
+	font-size: 24pt;
+}
+.label{
+	color: var(--text-label-dark);
+	font-size: 22pt;
+	font-weight: normal;
+}
+.attributeValue{
+	margin-top: 17px;
+	font-weight: 600;
+	font-size: 17pt;
+}

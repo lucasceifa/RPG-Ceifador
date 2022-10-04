@@ -1,0 +1,8 @@
+.bgFrame{
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-top: -35px;
+	width: auto;
+	z-index: 9;
+	display: flex;
+}

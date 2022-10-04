@@ -1,0 +1,99 @@
+.characterArea{
+	min-width: 360px;
+	width: 40%;
+	height: 100%;
+	margin: 10px 0;
+	display: flex;
+
+}
+.userIconArea{
+	width: 120px;
+	height: 120px;
+	margin-right: 10px;
+}
+.userGradient{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: linear-gradient(83deg,#d41e09,#460647,#d40b8e);
+  background-size: 300% 300%;
+  animation: gradient-animation 3s ease infinite;
+  -webkit-animation: gradient-animation 3s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.userIconImg{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 90%;
+	border-radius: 50%;
+	background-color: #2E2E2E;	
+}
+.userInfoArea{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+.userName{
+	font-size: 20pt;
+	color: var(--text);
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.userName span{
+	cursor: pointer;
+}
+.userName p{
+	margin-right: 5px;
+	font-weight: 700;
+}
+.userClass{
+	color: var(--text-label);
+	font-size: 8pt;
+	
+}
+.userLevel{
+	width: 100%;
+	font-size: 10px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.level{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-width: 220px;
+	justify-content: center; 
+	line-height: 25px;
+}
+.level span{
+	color: var(--text);
+	min-width: 26px;
+	width: 15%;
+	margin: 0;
+	font-size: 0.6rem;
+}
+.levelXP{
+	color: var(--text-label);
+}

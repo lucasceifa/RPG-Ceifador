@@ -1,0 +1,20 @@
+{
+		"proficiences": [
+		{"name": "História", "mod": "INT"},
+		{"name": "Intuição", "mod": "CHA"},
+		{"name": "Investigação", "mod": "INT"},
+		{"name": "Medicina", "mod": "WIS"},
+		{"name": "Natureza", "mod": "WIS"},
+		{"name": "Percepção ", "mod": "WIS"},
+		{"name": "Religião", "mod": "CHA"},
+		{"name": "Sorte", "mod": "CHA"},
+		{"name": "Artilharia", "mod": "DEX"},
+		{"name": "Bloqueio", "mod": "STR"},
+		{"name": "Duelo", "mod": "DEX"},
+		{"name": "Evasão", "mod": "DEX"},
+		{"name": "Furtividade", "mod": "INT"},
+		{"name": "Ladinagem", "mod": "DEX"},
+		{"name": "Mente", "mod": "WIS"},
+		{"name": "Astronomia", "mod": "INT"}
+	]
+}

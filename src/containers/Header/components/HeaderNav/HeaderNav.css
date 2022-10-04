@@ -1,0 +1,15 @@
+.navHeader{
+	display: flex;
+	width: 65.3125rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.rpgIcon{
+	color: var(--text);
+	width: 7rem;
+	height: 7rem;
+}
+.rpgIcon img{
+	width: inherit;
+	height: inherit;
+}

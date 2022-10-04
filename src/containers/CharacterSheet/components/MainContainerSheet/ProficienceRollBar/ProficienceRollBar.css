@@ -1,0 +1,56 @@
+.mainContainerProficience{
+	margin-top: 35px;
+}
+.mainLabelContainer:first-child{
+	margin-left: 30px;
+}
+.mainLabelContainer:last-child{
+	margin-right: 23px;
+}
+.mainFlex-1{
+	flex: 1;
+}
+.StyledScrollArea{
+	margin: 5px auto;
+	width: 100%;
+  height: 498px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.StyledViewport{
+	width: 100%;
+	height: 100%;
+}
+.StyledScrollbar{
+	display: flex;
+	width: 7px;
+	height: 94%;
+	margin-top: 20px;
+	margin-right: 15px;
+	user-select: none;
+	touch-action: none;
+	padding: 2;
+	border-radius: 14px;
+	background: var(--text-label);
+	transition: background 400ms ease-out;
+}
+.StyledScrollbar:hover{
+	background: #cecece;
+	width: 7px;
+}
+.StyledThumb{
+	flex: 2;
+	background: var(--principal);
+	border-radius: 10px;
+}
+.StyledThumb::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	min-width: 30px;
+	max-height: 30px;
+}

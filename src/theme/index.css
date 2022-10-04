@@ -1,0 +1,14 @@
+:root{
+  --principal: #A30000;
+  --principal-dark: #750000;
+
+  --text: #FFFFFF;
+  --text-black: #000000;
+  --text-label: #979797;
+  --text-label-dark: #515050;
+
+  --sucess: #34D399;
+  --alert: #F87171;
+
+  --header: #2E2E2E;
+}
