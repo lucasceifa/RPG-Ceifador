@@ -18,7 +18,7 @@ function ProficienceRollBar() {
 				<span className="mainLabelContainer mainFlex-1">SKILL</span>
 				<span className="mainLabelContainer">BÔNUS</span>
 			</div>
-			<ScrollArea.Root className=" StyledScrollArea">
+			<ScrollArea.Root className="StyledScrollArea">
 				<ScrollArea.Viewport className="StyledViewport">
 					{proficiences.map(proficiences => {
 							return (

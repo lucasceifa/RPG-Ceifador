@@ -1,0 +1,27 @@
+{
+	"items": [
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Bow", "mod": "Fire"},
+		{"name": "Sword", "mod": "Cold"},
+		{"name": "Sword", "mod": "Cold"}
+	]
+}
