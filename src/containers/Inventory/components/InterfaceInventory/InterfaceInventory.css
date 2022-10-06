@@ -1,0 +1,76 @@
+.interfaceContainer{
+	width: 500px;
+	box-sizing: border-box;
+	background-color: var(--text);
+	height: 535px;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid var(--principal);
+}
+.leftArm{
+	width: 12%;
+	height: 210px;
+	background-image: url('../../../../images/left-arm.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-bottom: 75px;
+}
+.rightArm{
+	width: 12%;
+	height: 210px;
+	background-image: url('../../../../images/right-arm.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-bottom: 75px;
+}
+.head{
+	width: 54px;
+	height: 80px;
+	background-image: url('../../../../images/head.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-top: 15px;
+	margin-bottom: 3px;
+}
+.bodyInterface{
+	width: 100%;
+	height: 130px;
+	background-image: url('../../../../images/body.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.legs{
+	width: 120%;
+	height: 220px;
+	background-image: url('../../../../images/legs.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-top: 3px;
+}
+.foot{
+	width: 135px;
+	height: 45px;
+	background-image: url('../../../../images/foot.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-top: 3px;
+}
+.mainBody{
+	width: 17%;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	margin: auto 0;
+}
+.inventoryHoverInterface:hover{
+	border: 3px solid var(--principal);
+	border-radius: 9px;
+}

@@ -11,12 +11,12 @@ function HeaderNav() {
 				label=""
 			/>
 			<HeaderNavBox
-				icon=<Campfire size={22} weight="fill" />
+				icon={<Campfire size={22} weight="fill" />}
 				title="DESCANSO CURTO"
 				label=""
 			/>
 			<HeaderNavBox
-				icon=<Moon size={22} weight="fill" />
+				icon={<Moon size={22} weight="fill" />}
 				title="DESCANSO LONGO"
 				label=""
 			/>

@@ -3,12 +3,12 @@
 }
 .triggerButton{
 	margin: 0 auto;
-	width: 300px;
+	width: 500px;
 	height: 35px;
 	border: 2px solid var(--principal);
 }
 .contentArea{
-	width: 300px;
+	width: 500px;
 	max-height: 300px;
 	box-sizing: border-box;
 	background-color: var(--text);

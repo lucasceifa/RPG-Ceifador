@@ -5,8 +5,8 @@ import './Inventory.css'
 function Inventory() {
 	return ( 
 		<div className="inventoryContainer">
-			<InterfaceInventory />
 			<OverlayInventory />
+			<InterfaceInventory />
 		</div>
 	 );
 }
