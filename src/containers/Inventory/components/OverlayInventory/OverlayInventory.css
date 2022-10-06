@@ -1,0 +1,60 @@
+.mainDrop{
+	margin: 0 auto;
+}
+.triggerButton{
+	margin: 0 auto;
+	width: 300px;
+	height: 35px;
+	border: 2px solid var(--principal);
+}
+.contentArea{
+	width: 300px;
+	max-height: 300px;
+	box-sizing: border-box;
+	background-color: var(--text);
+	border: 1px solid var(--principal);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.dropDownScrollArea{
+	overflow-y: scroll;
+	height: 280px;
+}
+.dropDownScrollArea::-webkit-scrollbar{
+	width: 14px;
+}
+.dropDownScrollArea::-webkit-scrollbar-track{
+	overflow: hidden;
+	background-color: var(--text-label);
+	border-radius: 15px;
+	border-top: 2px solid var(--text-label);
+	border: 4px solid white;
+}
+.dropDownScrollArea::-webkit-scrollbar-thumb{
+	background-color: var(--principal);
+	border-radius: 5px;
+	border: 4px solid white;
+	border-top: none;
+	border-bottom: none;
+}
+.contentItem{
+	box-sizing: border-box;
+	padding-left: 15px;
+	width: 100%;
+	padding-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 15px;
+	font-weight: 700;
+}
+.contentItem:hover{
+	width: 100%;
+	outline: none;
+	border: 2px solid var(--principal);
+	border-left: none;
+}
+.rightSlot{
+	font-weight: 700;
+	color: var(--text-label-dark);
+}

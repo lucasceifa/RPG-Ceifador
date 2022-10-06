@@ -26,7 +26,7 @@ function HeaderNav() {
 				label="The Last Dance"
 			/>
 			<span className='rpgIcon'>
-				<img src="https://media.discordapp.net/attachments/419221724996042752/1024757905804763256/CEIFADELAS.png?width=513&height=580" alt="" />
+				<img src="https://media.discordapp.net/attachments/419221724996042752/1024757905804763256/CEIFADELAS.png" alt="" />
 			</span>
 		</nav>
 	);

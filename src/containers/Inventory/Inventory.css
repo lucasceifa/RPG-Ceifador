@@ -1,0 +1,6 @@
+.inventoryContainer{
+	margin-top: 60px;
+	margin-left: 50px;
+	width: 100%;
+	display: flex;
+}

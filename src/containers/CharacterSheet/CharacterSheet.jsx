@@ -1,3 +1,4 @@
+import Inventory from '../Inventory/Inventory';
 import './CharacterSheet.css'
 import ActionsContainerSheet from './components/MainContainerSheet/ActionsContainerSheet/ActionsContainerSheet';
 import MainContainerSheet from './components/MainContainerSheet/MainContainerSheet';
@@ -12,6 +13,7 @@ function CharacterSheet () {
 			<div className='containerMainInfos'>
 				<MainContainerSheet />
 				<ActionsContainerSheet />
+				<Inventory />
 			</div>
 		</div>
 	);
