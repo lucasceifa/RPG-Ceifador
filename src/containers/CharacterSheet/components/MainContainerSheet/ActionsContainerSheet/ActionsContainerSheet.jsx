@@ -1,3 +1,4 @@
+import ActionContainer from './ActionContainer/ActionContainer';
 import './ActionsContainerSheet.css'
 import LineActions from './LineActions/LineActions';
 
@@ -9,6 +10,7 @@ function ActionsContainerSheet() {
 			modDex="3"
 			armor="12"
 		/>
+		<ActionContainer />
 		</div>
 	);
 }

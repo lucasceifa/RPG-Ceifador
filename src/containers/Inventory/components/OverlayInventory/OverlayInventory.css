@@ -1,11 +1,12 @@
 .mainDrop{
 	margin: 0 auto;
 }
-.triggerButton{
+.triggerButtonInventory{
 	margin: 0 auto;
 	width: 500px;
 	height: 35px;
 	border: 2px solid var(--principal);
+	background-color: #fff;
 }
 .contentArea{
 	width: 500px;

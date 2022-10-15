@@ -1,0 +1,40 @@
+.attackContainer{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	border: 1px solid rgba(145, 144, 144, 0.4);
+}
+.attackIcon{
+	align-items: center;
+	display: flex;
+	font-size: 16pt;
+	padding-right: 15px;
+}
+.containerItemAttack{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+.attackItem{
+	font-weight: 600;
+	font-size: 12pt;
+}
+.attackLabel{
+	font-size: 10pt;
+	font-weight: 600;
+	color: var(--text-label-dark);
+}
+.dmgAndRange{
+	display: flex;
+	flex-direction: row;
+	margin-right: 60px;
+	gap: 45px;
+}
+.attackNote{
+	font-size: 11pt;
+	font-weight: 600;
+	color: var(--text-label-dark);
+}
+.attackDamage{
+	font-weight: 600;
+}

@@ -15,7 +15,7 @@ function OverlayInventory() {
 	return ( 
 		<div className='mainDrop'>
 			<DropdownMenu.Root className="mainDropdown">
-				<DropdownMenu.Trigger className='triggerButton'>
+				<DropdownMenu.Trigger className='triggerButtonInventory'>
 					<NotePencil size={29} weight="fill" />
 				</DropdownMenu.Trigger>
 				<DropdownMenu.Content className='contentArea'>
