@@ -1,0 +1,118 @@
+.actionContainer{
+	width: 750px;
+	height: 445px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 70px;
+	background-image: url(../../../../../../images/actionsMainFrame.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+}
+.tabsList{
+	border: none;
+	margin-left: 5px;
+}
+.tabsContent{
+	overflow: hidden;
+}
+.tabsAction{
+	margin: 0 5px;
+	border: none;
+	font-size: 12pt;
+	font-weight: 600;
+	color: var(--text-label-dark);
+	padding-bottom: 3px;
+	background-color: var(--text);
+}
+[data-state="active"]{
+	font-weight: 800;
+	color: #000;
+	box-shadow: inset 0 -4px 0 0 var(--principal), 0 0px 0 0 var(--principal);
+	
+}
+.mainLineContent{
+	display: flex;
+	padding: 6px 5px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid var(--text-label);
+}
+.leftContentAction{
+	font-size: 12pt;
+	font-weight: 700;
+}
+.leftRed{
+	color: var(--principal);
+	font-weight: 900;
+	padding-right: 3px;
+}
+.titleActionList{
+	display: flex;
+	font-weight: 600;
+	font-size: 11pt;
+	margin-top: 15px;
+	margin-left: 47px;
+}
+.attack{
+	width: 31%;
+}
+.range{
+	margin-right: 25px;
+}
+.damage{
+	margin-right: 25px;
+}
+.actionList{
+	height: 172px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-top: 10px;
+}
+.actionList:hover{
+	overflow-y: auto;
+}
+.actionList::-webkit-scrollbar{
+	width: 14px;
+}
+.actionList::-webkit-scrollbar-track{
+	overflow: hidden;
+	background-color: var(--text-label);
+	border-radius: 5px;
+	border-top: 2px solid var(--text-label);
+	border: 4px solid white;
+}
+.actionList::-webkit-scrollbar-thumb{
+	background-color: var(--principal);
+	border-radius: 5px;
+	border: 4px solid white;
+	border-top: none;
+	border-bottom: none;
+}
+.actionsCombat{
+	margin: 8px 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 0 10px 0 0 white;
+}
+.combatActionsTitle{
+	font-weight: 700;
+	font-size: 11pt;
+}
+.combatActionsLabel{
+	font-weight: 500;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 11pt;
+	height: 50px;
+	padding: 8px;
+	border-left: 4px solid rgb(189, 184, 184,0.8);
+}

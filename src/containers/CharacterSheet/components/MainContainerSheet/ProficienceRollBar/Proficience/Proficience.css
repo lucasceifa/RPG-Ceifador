@@ -34,7 +34,7 @@
   height: 1em;
   transform: scale(0);
   transition: 100ms transform ease-in-out;
-  box-shadow: inset 1em 1em #000;
+  box-shadow: inset 1em 1em var(--principal);
 }
 .circleButton:checked::before{
 	border-radius: 50%;

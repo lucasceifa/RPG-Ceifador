@@ -3,6 +3,6 @@
 	overflow: hidden;
 	margin-top: -35px;
 	width: auto;
-	z-index: 9;
+	z-index: 0;
 	display: flex;
 }

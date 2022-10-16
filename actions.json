@@ -1,0 +1,9 @@
+{
+	"actions": [
+		{"item": "Longbow", "label": "Ranged Weapon", "range": "12m", "damage": "1d8", "notes": "Light Crossbow"},
+		{"item": "Longbow", "label": "Ranged Weapon", "range": "12m", "damage": "1d8", "notes": "Light Crossbow"},
+		{"item": "Longbow", "label": "Ranged Weapon", "range": "12m", "damage": "1d8", "notes": "Light Crossbow"},
+		{"item": "Longbow", "label": "Ranged Weapon", "range": "12m", "damage": "1d8", "notes": "Light Crossbow"},
+		{"item": "Longbow", "label": "Ranged Weapon", "range": "12m", "damage": "1d8", "notes": "Light Crossbow"}
+	]
+}
